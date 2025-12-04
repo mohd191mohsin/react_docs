@@ -1,0 +1,47 @@
+tut1/
+├── public/
+│   vite.svg
+├── src/
+│   ├── assets/
+│   │   ├── react.svg
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+
+
+
+public folder: contains static files. vite.svg is just the Vite logo.
+
+src folder: main folder where your React code is written.
+
+assets folder: stores images or icons like react.svg.
+
+App.css: styling for the App component.
+
+App.jsx: main React component of your whole project.
+
+index.css: global CSS for the full app.
+
+main.jsx: entry file that loads and starts the App component.
+
+index.html: main HTML file where the React app is attached.
+
+package.json: contains project details and list of installed packages.
+
+package-lock.json: stores exact versions of the installed packages.
+
+vite.config.js: configuration settings for Vite.
+
+eslint.config.js: rules for checking code quality.
+
+README.md: project instructions or notes.
+
+.gitignore: tells Git which files or folders to ignore.
