@@ -1,0 +1,16 @@
+Dpendency: npm
+Create app: npm create vite@latest tut1 --template react
+Select framework: ract
+Select variant: javascript
+Use rolldown-vite (Experimental)?:No
+Install with npm and start now? : Yes
+Goto project directory : cd tut1
+Run dev server : npm run dev
+If on server then open vite.config.js and below code 
+"
+  server: {
+    host: true,        // Allow external access (0.0.0.0)
+    port: 5173,        // Same port you use
+    strictPort: true,  // Prevent switching to another port
+  },
+"
